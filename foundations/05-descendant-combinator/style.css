@@ -1,0 +1,17 @@
+div p {
+  background-color: yellow;
+  color: #E00000;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* It could also be written like this: 
+
+.container .text {
+    background-color: yellow;
+    color: #E00000;
+    font-size: 20px;
+    text-align: center;
+}
+
+*/
