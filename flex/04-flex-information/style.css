@@ -10,6 +10,8 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
+  text-align: center;
 }
 
 /* do not edit this footer */
@@ -24,3 +26,22 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.container {
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+}
+
+.text {
+  text-align: center;
+}
+
+/* It's done in a different manner to the solution, but it works the same way.
+In the proposed solution they used only one container and inside each item the image and the text work like `centered blocks`*/
